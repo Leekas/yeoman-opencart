@@ -14,10 +14,15 @@ describe('opencart:app', function () {
             .on('end', done);
     });
 
-    it('creates files', function () {
+    it('creates files', function (done) {
         assert.file([
             '.editorconfig',
-            '.jshintrc',
+            '.jshintrc'
+        ]);
+    });
+
+    after(function (done) {
+        assert.file([
             'admin/',
             'catalog/',
             'image/',
