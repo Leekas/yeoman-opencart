@@ -43,6 +43,7 @@
   "devDependencies": {
     "mocha": "*",
     "mocha-lcov-reporter": "*",
+    "coveralls": "*",
     "istanbul": "0.2.10",
     "jshint": "2.1.3"
   },
