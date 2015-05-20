@@ -1,4 +1,4 @@
-# Yeoman Opencart [![Build Status](https://secure.travis-ci.org/Leekas/yeoman-opencart.png?branch=master)](https://travis-ci.org/Leekas/yeoman-opencart) [![Coverage Status](https://coveralls.io/repos/Leekas/yeoman-opencart/badge.svg)](https://coveralls.io/r/Leekas/yeoman-opencart)
+# Yeoman Opencart [![Build Status](https://secure.travis-ci.org/Leekas/yeoman-opencart.png?branch=master)](https://travis-ci.org/Leekas/yeoman-opencart) [![Coverage Status](https://coveralls.io/repos/Leekas/yeoman-opencart/badge.svg)](https://coveralls.io/r/Leekas/yeoman-opencart) [![NPM version][npm-image]][npm-url]
 
 > [Yeoman](http://yeoman.io) generator for the [Opencart](http://www.opencart.com) e-commerce platform.
 

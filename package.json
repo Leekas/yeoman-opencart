@@ -2,22 +2,32 @@
   "name": "generator-opencart",
   "version": "0.0.1",
   "description": "Yeoman generator for Opencart",
-  "license": "MIT",
-  "main": "app/index.js",
-  "repository": "Leekas/yeoman-opencart",
   "author": {
     "name": "Leekas Shep",
     "email": "leekasshep@gmail.com",
     "url": "https://github.com/Leekas"
   },
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Leekas/yeoman-opencart.git"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "make test"
+  },
+  "bin": {
+    "coveralls": "./bin/coveralls.js"
   },
   "files": [
     "generators"
   ],
   "keywords": [
-    "yeoman-generator", "opencart", "generator-opencart", "yeoman-opencart", "ecommerce"
+    "yeoman-generator",
+    "opencart",
+    "generator-opencart",
+    "yeoman-opencart",
+    "ecommerce"
   ],
   "dependencies": {
     "yeoman-generator": "^0.19.0",
@@ -27,10 +37,20 @@
     "mkdirp": "^0.3.5",
     "tarball-extract": "~0.0.2",
     "ncp": "~2.0.0",
-    "rmdir": "~1.1.0"
+    "rmdir": "~1.1.0",
+    "lcov-parse": "0.0.6"
   },
   "devDependencies": {
     "mocha": "*",
-    "mocha-lcov-reporter": "*"
+    "mocha-lcov-reporter": "*",
+    "istanbul": "0.2.10",
+    "jshint": "2.1.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
   }
 }
