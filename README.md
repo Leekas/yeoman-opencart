@@ -21,13 +21,14 @@ npm install -g yo
 
 ##### What is Yeoman Generators?
 
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, like this Opencart generator do.
+Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create - here which is of course the Opencart application.
 
 ##### What is Opencart?
 
 Did You just ask that?? You are in the wrong place mate!
 
-Anyway, OpenCart is a free open source PHP-based e-commerce solution. providing a professional and reliable foundation from which to build a successful online store. OpenCart is designed feature rich, easy to use, search engine friendly and with a visually appealing interface. [Find more here](http://www.opencart.com).
+Anyway, OpenCart is a free open source PHP-based e-commerce solution. providing a professional and reliable foundation from which to build a successful online store. OpenCart is designed feature rich, easy to use, search engine friendly and with a visually appealing interface. [Find out more here](http://www.opencart.com).
+
 
 ## How?
 
@@ -46,6 +47,7 @@ yo opencart
 ```
 
 Which creates an Opencart application scaffold on-the-go!
+
 
 ___
 

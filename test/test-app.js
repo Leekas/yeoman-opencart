@@ -14,25 +14,10 @@ describe('opencart:app', function () {
             .on('end', done);
     });
 
-    it('creates files', function (done) {
+    it('creates project tempalate files', function (done) {
         assert.file([
             '.editorconfig',
             '.jshintrc'
-        ]);
-    });
-
-    after(function (done) {
-        assert.file([
-            'admin/',
-            'catalog/',
-            'image/',
-            'install/',
-            'system/',
-            '.htaccess.txt',
-            'config-dist.php',
-            'crossdomain.xml',
-            'index.php',
-            'php.ini'
         ]);
     });
 
